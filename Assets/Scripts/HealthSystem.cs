@@ -13,7 +13,7 @@ public class HealthSystem : MonoBehaviour
     public Sprite redHeart;
     public Sprite BlackHeart;
 
-    public GameOverScreen GameOverScreen;
+    public EndGame EndGame;
 
     void Start()
     {
@@ -68,7 +68,7 @@ public class HealthSystem : MonoBehaviour
             --health;
         }
         else{
-            GameOverScreen.gameOver();
+            EndGame.gameOver();
         }
     }
 }
