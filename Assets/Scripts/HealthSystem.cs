@@ -13,6 +13,8 @@ public class HealthSystem : MonoBehaviour
     public Sprite redHeart;
     public Sprite BlackHeart;
 
+    public EndGame EndGame;
+
     void Start()
     {
         health = 4;
@@ -64,6 +66,9 @@ public class HealthSystem : MonoBehaviour
         if(health > 0)
         {
             --health;
+        }
+        else{
+            EndGame.gameOver();
         }
     }
 }
