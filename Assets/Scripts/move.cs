@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 //Includes not only move but player behavior in general
 public class move : MonoBehaviour
@@ -49,7 +50,7 @@ public class move : MonoBehaviour
 
         if ((Input.GetKey(KeyCode.Space)) && Time.time > nextFire)
         {
-            fire();
+            //fire();
         }
     }
 
@@ -95,7 +96,14 @@ public class move : MonoBehaviour
             transform.position = new Vector3(0, 0, 0);
             
         }
+        if(collision.gameObject.tag == "Exit")
+        {
+            if(GlobalBehavior.GlobalBehaviorInstance.isEscape == true && GlobalBehavior.GlobalBehaviorInstance.isTimeUp == false)
+            {
+                SceneManager.LoadScene(2);
 
+            }
+        }
     }
 
 }

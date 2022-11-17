@@ -12,7 +12,7 @@ public class GlobalBehavior : MonoBehaviour
 
     //if player could escape or not
     public bool isEscape = false;
-
+    public bool isTimeUp;
     void Start()
     {
         GlobalBehavior.GlobalBehaviorInstance = this;
