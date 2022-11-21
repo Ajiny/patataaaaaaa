@@ -17,7 +17,7 @@ public class EndGame : MonoBehaviour
     }
 
     public static void gameOver(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        SceneManager.LoadScene(3);
         //GameOver.Setup();
     }
     //public Text pointsText;

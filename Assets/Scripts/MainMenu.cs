@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
     public void NextLevel(){
         current++;
         total++;
-        SceneManager.LoadScene(0 + current);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + current);
     }
 
     public void QuitGame(){
