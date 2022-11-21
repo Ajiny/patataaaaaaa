@@ -9,7 +9,8 @@ public class GlobalBehavior : MonoBehaviour
     public Text PotatoBucket = null;
     //bucket picked count
     public int count = 0;
-
+    
+    public Vector2 playerPos = new Vector2();
     //if player could escape or not
     public bool isEscape = false;
     public bool isTimeUp;

@@ -34,6 +34,7 @@ public class move : MonoBehaviour
 
     void Update()
     {   
+        GlobalBehavior.GlobalBehaviorInstance.playerPos = transform.position;
         // Handle Input
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
@@ -89,13 +90,7 @@ public class move : MonoBehaviour
             Destroy(collision.gameObject);
             GlobalBehavior.GlobalBehaviorInstance.PickUp_Bucket();
         }
-        if(collision.gameObject.tag == "Human")
-        {
-            HealthSystem.MinusLife();
-            // Reset player position
-            transform.position = new Vector3(0, 0, 0);
-            
-        }
+
         if(collision.gameObject.tag == "Exit")
         {
             if(GlobalBehavior.GlobalBehaviorInstance.isEscape == true && GlobalBehavior.GlobalBehaviorInstance.isTimeUp == false)
@@ -103,6 +98,16 @@ public class move : MonoBehaviour
                 SceneManager.LoadScene(2);
 
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Human")
+        {
+            HealthSystem.MinusLife();
+            // Reset player position
+            transform.position = new Vector3(0, 0, 0);
         }
     }
 
