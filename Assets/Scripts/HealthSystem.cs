@@ -66,9 +66,11 @@ public class HealthSystem : MonoBehaviour
         if(health > 0)
         {
             --health;
+            
+            if (health == 0){
+                EndGame.gameOver();
+            }
         }
-        else if (health == 0){
-            EndGame.gameOver();
-        }
+        
     }
 }

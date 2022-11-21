@@ -8,7 +8,7 @@ public class GlobalBehavior : MonoBehaviour
     public static GlobalBehavior GlobalBehaviorInstance = null;
     public Text PotatoBucket = null;
     //bucket picked count
-    private int count = 0;
+    public int count = 0;
 
     //if player could escape or not
     public bool isEscape = false;
