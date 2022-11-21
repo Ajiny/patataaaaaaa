@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class GlobalBehavior : MonoBehaviour
 {
     public static GlobalBehavior GlobalBehaviorInstance = null;
+    //public AudioSource audioSource;
     public Text PotatoBucket = null;
+    
     //bucket picked count
     public int count = 0;
     
@@ -33,7 +35,7 @@ public class GlobalBehavior : MonoBehaviour
         } 
     }
     public void PickUp_Bucket()
-    {
+    {  
         count = count + 5; 
     }
 }
