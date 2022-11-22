@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class Audioscript : MonoBehaviour
 {  
-    public static AudioSource audioSource;
+    public AudioSource audioSource;
     public AudioClip collect;
     public AudioClip die;
+    public static bool collected;
+    public static bool dead;
+
     //public AudioClip stageStart;
     //public AudioClip gameOver;
     //public AudioClip stageClear;
@@ -20,16 +23,22 @@ public class Audioscript : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         
     }
-    public void Collect(){
+    void Update(){
+        if (collected){
+            Collect();
+            collected = false;
+        }
+        if (dead){
+            Die();
+            dead = false;
+        }
+    }
+    void Collect(){
         audioSource.clip = collect;
     }
-    public void Die(){
+    void Die(){
         audioSource.clip = die;
     }
    
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

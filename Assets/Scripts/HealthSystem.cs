@@ -64,7 +64,8 @@ public class HealthSystem : MonoBehaviour
     public static void MinusLife()
     {
         if(health > 0)
-        {
+        {   
+            Audioscript.dead = true;
             --health;
             
             if (health == 0){
