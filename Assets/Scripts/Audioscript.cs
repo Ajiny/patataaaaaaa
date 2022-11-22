@@ -35,9 +35,11 @@ public class Audioscript : MonoBehaviour
     }
     void Collect(){
         audioSource.clip = collect;
+        audioSource.Play();
     }
     void Die(){
         audioSource.clip = die;
+        audioSource.Play();
     }
    
     
