@@ -5335,11 +5335,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1877069229285689825, guid: 60c2e71f67b29554da971330bf4807bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.03
+      value: -1.54
       objectReference: {fileID: 0}
     - target: {fileID: 1877069229285689825, guid: 60c2e71f67b29554da971330bf4807bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1
+      value: 2.73
       objectReference: {fileID: 0}
     - target: {fileID: 1877069229285689825, guid: 60c2e71f67b29554da971330bf4807bb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7563,6 +7563,86 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &709544435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 709544436}
+  - component: {fileID: 709544438}
+  - component: {fileID: 709544437}
+  m_Layer: 5
+  m_Name: Potato_Bucket_Count (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &709544436
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709544435}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2082534662}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400.5, y: -8.2}
+  m_SizeDelta: {x: 71.3128, y: 48.3414}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &709544437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709544435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.103773594, g: 0.06314526, b: 0.06314526, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 22
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: /3
+--- !u!222 &709544438
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709544435}
+  m_CullTransparentMesh: 1
 --- !u!1001 &717849866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9053,7 +9133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e6eb54f6acfe6458f9546b73f13955, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioscript: {fileID: 0}
   PotatoBucket: {fileID: 1278367060}
   count: 0
   playerPos: {x: 0, y: 0}
@@ -9132,7 +9211,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 391.5, y: -9.1}
+  m_AnchoredPosition: {x: 386.5, y: -8.4}
   m_SizeDelta: {x: 71.3128, y: 48.3414}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278367060
@@ -9429,7 +9508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAABAIew2V8opeAIAADMFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMzoWRjUOgt9YhpIckTGgnFy7CWmMNsuSR5ADJ8N+7ku3YodOT5bf79uPtSh9EKFtB5rRZGcEfNQfyfUT8mXwb9cYHOLG9VhvxDp3Pq+Cu8E4s+LwwJzTikadZXYIzIvuh9tI7UwRrJXJtyiXfQ6qtswjnTFpAk9HOsxVCHyNyws944SlnPMW3/vSOpwUdXfCYgXJgBq7xhNLoJkpawphO6Gwxi26nyc2ipTbMWmWSlRVw30YfIJpPoinFGFEbIaKTeBEYCnttnRGLfXYtpbBtrcSdq6BFyipbY6fowAXD3kOBU/wtQOwL5/sYkp/z3IJrhTHsfCcMSthEJT91o2vJ7KGp8o3J2ueZh6KakI//WMdRMOdGlw9d1oj6DK4Q2eGFnTNm3UD2IXzXlx0FqY5MHthOwmsB6kmvjK4VR6MztafWFuK7/vezsbSA7NDjTalXYF312ndT7mbse7iE3k+pFOUuCJ80wEbqoHZYDTA4ml9YcFgc24ZA1Ffxx8Jvth9uWGu4F8Y6NLVdKl/eTtfGu5Jl0Mx3U7tUGwVmGKECxaQ7rzGOu57gle3/rHvmL1ObvbV1d+SKEuDen9Ir01ofP6dlC318BFs8104KBb3U3vCEQqVaqWbB7FejZ21qk7NswNrXgn9dLQKzaUJzmsWzLEry+XQMu2RG2Y7n8ZzvkjgnYfeEwjaZXDd1turg1FQfXOGedU/MaGVYFXadG3ZcifdSD+oTKtebzACo5yZCp5AFg0nwWvIlF6jPBpwTKsybfGyJ1NkB+LYnbEOry5Mz7AtaiTftPLIlaXhUtsTDn8u8NvAm4Oizb9uyLuTyF1BLAwQUAAAICAAAQCHs8J5EaW0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0UqqZsYlBmkGykVmyoUmahbFuapKJmUFiUkqakUVKkolRmlIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAQCHsNlfKKXgCAAAzBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAQCHs8J5EaW0AAAB4AAAACQAkAAAAAAAAAAAAAADFAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAH0DAAAAAA==
+    dataString: UEsDBBQAAAgIAABAIezRjNOiegIAADIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMFymzAQ/RWPzrUHMHHs3lrsOD0k8cTt5MJFRovRWEiMJGI7Gf97VwIMcacnxNt9b3efFj4Jl6aCzCq91pw9KQbk+4i4M/k26oOPcKJ7Jbf8A7qcN85s4ZKoz3mllivEQ0czqgSrefZD7oVLDhCsJc+VLldsD4ky1iCcU2EAQ1pZx5YIfY7ICR/jhaOc8RTdu9MHnhbB6ILHDKQFPUiNJkEQ3oVxSxgHk2C2mIX30/hu0VIbZi0zQcsKmBujFwjnk3AaoEbYKoTBJFp4hsRZ22TEIlddCcFN2yux58p7kdDK1DgpJjBOcXbf4BRfC+D7wro5huSXPDdgW2M0PS+5RgsbVfJTNb6W1ByaLt+pqF2duW+qkXz6JzoOfTjXqnzsqoaBq2ALnh1e6Tmjxg5sH8LLvu3QW3Wk4kB3At4KkM9qrVUtGQatrh21NhAt+9frYEkB2aHHm1ZvwLrqve9uubtjN8PFz35KBC933vi4AbZCebf9aoDGq/mFDfvFMa0Eoq6LPwZ+0/1ww9rAA9fGYqidUrr2dqrWLpWsvGdumtomSkvQQ4UKJBX2vEEde3uDN7H/sx6o+5ja6m2s+0ZuKB7u84PgJrRRx+ttmUIdn8AUL7UVXEJvtQs8o1GJkrJZMPM16FjbWuc0G7D2NWdfV4vAbBoHeZBFsyyM8/l0DLt4FtAdy6M528VRTvzucYljUrFp+mzdwVuTvbjEPet+MaO1ppXfdabpcc0/SjXoj8tcbTMNIF8ahc4hAxqL4GfJVoyjP1uwlkt/3+QzJUJlB2DpVSj1k65OVtO0V0lJxd+VdUhKEv9PSYmDr7u80fDO4eiKd2IXcvkLUEsDBBQAAAgIAABAIezwnkRpbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSqpmxiUGaQbKRWbKhSZqFsW5qkomZQWJSSpqRRUqSiVGaUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAABAIezRjNOiegIAADIFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAABAIezwnkRpbQAAAHgAAAAJACQAAAAAAAAAAAAAAMcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfwMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -13132,11 +13211,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1877069229285689825, guid: 60c2e71f67b29554da971330bf4807bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.46
+      value: -8.11
       objectReference: {fileID: 0}
     - target: {fileID: 1877069229285689825, guid: 60c2e71f67b29554da971330bf4807bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.67
+      value: -4.58
       objectReference: {fileID: 0}
     - target: {fileID: 1877069229285689825, guid: 60c2e71f67b29554da971330bf4807bb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13201,11 +13280,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1877069229285689825, guid: 60c2e71f67b29554da971330bf4807bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.41
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 1877069229285689825, guid: 60c2e71f67b29554da971330bf4807bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.63
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: 1877069229285689825, guid: 60c2e71f67b29554da971330bf4807bb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13552,6 +13631,7 @@ RectTransform:
   - {fileID: 529400985}
   - {fileID: 2128625197}
   - {fileID: 989187579}
+  - {fileID: 709544436}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

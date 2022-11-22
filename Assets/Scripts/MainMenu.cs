@@ -12,6 +12,12 @@ public class MainMenu : MonoBehaviour
     public void PlayGame(){
 
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + current);
+        SceneManager.LoadScene("NewMap");
+    }
+
+     public void Tutorial(){
+
+        Debug.Log("Quit Game");
         SceneManager.LoadScene("Tutorial");
     }
 

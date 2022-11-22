@@ -95,7 +95,14 @@ public class move : MonoBehaviour
         {
             if(GlobalBehavior.GlobalBehaviorInstance.isEscape == true && GlobalBehavior.GlobalBehaviorInstance.isTimeUp == false)
             {
-                SceneManager.LoadScene(2);
+                if(SceneManager.GetActiveScene().buildIndex == 4)
+                {
+                    SceneManager.LoadScene("NewMap");
+                }
+                else
+                {
+                    SceneManager.LoadScene(2);
+                }
 
             }
         }

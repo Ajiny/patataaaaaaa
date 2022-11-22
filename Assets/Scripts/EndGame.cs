@@ -15,7 +15,7 @@ public class EndGame : MonoBehaviour
         Debug.Log("Quit Game");
         SceneManager.LoadScene("StartScene");
     }
-
+    
     public static void gameOver(){
         SceneManager.LoadScene(3);
         //GameOver.Setup();

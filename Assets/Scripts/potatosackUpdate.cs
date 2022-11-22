@@ -9,16 +9,16 @@ public class potatosackUpdate : MonoBehaviour
 
     void Update()
     {
-        if(GlobalBehavior.GlobalBehaviorInstance.count == 5){
+        if(GlobalBehavior.GlobalBehaviorInstance.count == 1){
             GetComponent<SpriteRenderer>().sprite = sp1;
         }
-        if(GlobalBehavior.GlobalBehaviorInstance.count == 10){
+        if(GlobalBehavior.GlobalBehaviorInstance.count == 2){
             GetComponent<SpriteRenderer>().sprite = sp2;
         }
-        if(GlobalBehavior.GlobalBehaviorInstance.count == 15){
+        if(GlobalBehavior.GlobalBehaviorInstance.count == 3){
             GetComponent<SpriteRenderer>().sprite = sp3;
         }
-        if(GlobalBehavior.GlobalBehaviorInstance.count == 20){
+        if(GlobalBehavior.GlobalBehaviorInstance.count == 4){
             GetComponent<SpriteRenderer>().sprite = sp4;
         }
 

@@ -780,7 +780,6 @@ GameObject:
   - component: {fileID: 1434686341}
   - component: {fileID: 1434686345}
   - component: {fileID: 1434686344}
-  - component: {fileID: 1434686343}
   - component: {fileID: 1434686342}
   m_Layer: 5
   m_Name: QuitButton
@@ -856,7 +855,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 783960954}
         m_TargetAssemblyTypeName: EndGame, Assembly-CSharp
-        m_MethodName: gameOver
+        m_MethodName: StopGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -866,18 +865,6 @@ MonoBehaviour:
           m_StringArgument: GameOver.NewGame
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1434686343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434686340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61c27d223e30c45b9afb7f3f087680b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1434686344
 MonoBehaviour:
   m_ObjectHideFlags: 0
