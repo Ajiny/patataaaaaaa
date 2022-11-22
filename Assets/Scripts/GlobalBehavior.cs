@@ -35,7 +35,8 @@ public class GlobalBehavior : MonoBehaviour
         } 
     }
     public void PickUp_Bucket()
-    {  
+    {   
+        Audioscript.collected = true;
         count = count + 5; 
     }
 }
