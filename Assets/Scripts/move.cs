@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using System;
 //Includes not only move but player behavior in general
 public class move : MonoBehaviour
 {   
@@ -99,7 +99,11 @@ public class move : MonoBehaviour
                 {
                     SceneManager.LoadScene("NewMap");
                 }
-                else
+                else if(SceneManager.GetActiveScene().buildIndex == 5)
+                {
+                    SceneManager.LoadScene("Victory");
+                }
+                else 
                 {
                     SceneManager.LoadScene(2);
                 }
@@ -114,7 +118,24 @@ public class move : MonoBehaviour
         {
             HealthSystem.MinusLife();
             // Reset player position
-            transform.position = new Vector3(0, 0, 0);
+            if(SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                Debug.Log(collision.transform.position.x + " " + collision.transform.position.y);
+                if(Math.Abs(collision.transform.position.x - 2.5f)< 1.5 && Math.Abs(collision.transform.position.y + 5f) < 1.5 )
+                //if(collision.trasnform.position.x)
+                {
+                    transform.position = new Vector3(2,5,0);
+                }
+                else{
+                    transform.position = new Vector3(0,0,0);
+                }
+                
+            }
+            else if(SceneManager.GetActiveScene().buildIndex == 5)
+            {
+                transform.position = new Vector3(-13.5f, 6.18f, 0);
+            }
+
         }
     }
 

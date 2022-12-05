@@ -2271,7 +2271,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &942743470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2286,7 +2286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAABAIezRjNOiegIAADIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMFymzAQ/RWPzrUHMHHs3lrsOD0k8cTt5MJFRovRWEiMJGI7Gf97VwIMcacnxNt9b3efFj4Jl6aCzCq91pw9KQbk+4i4M/k26oOPcKJ7Jbf8A7qcN85s4ZKoz3mllivEQ0czqgSrefZD7oVLDhCsJc+VLldsD4ky1iCcU2EAQ1pZx5YIfY7ICR/jhaOc8RTdu9MHnhbB6ILHDKQFPUiNJkEQ3oVxSxgHk2C2mIX30/hu0VIbZi0zQcsKmBujFwjnk3AaoEbYKoTBJFp4hsRZ22TEIlddCcFN2yux58p7kdDK1DgpJjBOcXbf4BRfC+D7wro5huSXPDdgW2M0PS+5RgsbVfJTNb6W1ByaLt+pqF2duW+qkXz6JzoOfTjXqnzsqoaBq2ALnh1e6Tmjxg5sH8LLvu3QW3Wk4kB3At4KkM9qrVUtGQatrh21NhAt+9frYEkB2aHHm1ZvwLrqve9uubtjN8PFz35KBC933vi4AbZCebf9aoDGq/mFDfvFMa0Eoq6LPwZ+0/1ww9rAA9fGYqidUrr2dqrWLpWsvGdumtomSkvQQ4UKJBX2vEEde3uDN7H/sx6o+5ja6m2s+0ZuKB7u84PgJrRRx+ttmUIdn8AUL7UVXEJvtQs8o1GJkrJZMPM16FjbWuc0G7D2NWdfV4vAbBoHeZBFsyyM8/l0DLt4FtAdy6M528VRTvzucYljUrFp+mzdwVuTvbjEPet+MaO1ppXfdabpcc0/SjXoj8tcbTMNIF8ahc4hAxqL4GfJVoyjP1uwlkt/3+QzJUJlB2DpVSj1k65OVtO0V0lJxd+VdUhKEv9PSYmDr7u80fDO4eiKd2IXcvkLUEsDBBQAAAgIAABAIezwnkRpbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSqpmxiUGaQbKRWbKhSZqFsW5qkomZQWJSSpqRRUqSiVGaUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAABAIezRjNOiegIAADIFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAABAIezwnkRpbQAAAHgAAAAJACQAAAAAAAAAAAAAAMcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfwMAAAAA
+    dataString: UEsDBBQAAAgIAABAIeysEH7qdQIAADIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMziVjDCHQW+sQ0kMSJrSTiy/CWmMNQvJIcoBk+O/dlW3s0Kkvlt/u24+3K38yqV0JmTd2aaV4MgLY9wGjM/s26IyPcORbo9fyA1qfNyl8QU48+LxyLw3iI6I5swdvZfZDbxU5RwhWWubG7hdiC4lx3iGcc+UATdZ4YmuEPgfsiK/hnCgnPMV3dPrA0zwanPGYgfZge67RzfQuwuf2dtxwEJrHc3oms4ZccyudKb4vQVAjXYjR7CYak3vDv0N68NfYa+Ma3cQxZTdKSdfUyvypDFokvHQVdooOQnLsPRRI5RQgt4WnPvrklzx34BthLD/dS4sS1lHZT1PruuduV9f4zlVFeWahqDrk0z/W4SiYc2v2j23WUUQZfCGz3Ss/Zdz5nux9+L4rexSEOnC14xsFbwXoZ7O0ptICjd5WRK0cxPfd56WxpIBs1+F1qVdgVXbKt1NuZ0w9nEPvx0TJ/SYIP6mBtTJB7bAaYHE0v7DgsDiuCYEoVfHHwW++7W9YY3iQ1nk0NV1qKm9jKkuubBE0o24qnxirwfYjlKC58qcVxvHXE7yy/Z/1wOkyNdkbW3tHrigB7vyj6Mq0MofLtFxhDk/gipfKK6mhk5oMzyhUYrSuF8x9NRJrXdmcZz3WtpLi62oxmI4nUR5l8TQbTfLZeAibyTTiG5HHM7GZxDkLuyc1tsnVqq6zUQenprvgGves/cUMlpaXYdeF5Yel/NibXn1S52adWQD9UkdoFXJgMQleS7EQEvVZg/dSh3mzz5Qpk+1ApJdAaeh0cfSWp12UlJXy3XhCUpaEf0rKCL7s8srCu4QDJW+Dndn5L1BLAwQUAAAICAAAQCHs8J5EaW0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0UqqZsYlBmkGykVmyoUmahbFuapKJmUFiUkqakUVKkolRmlIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAQCHsrBB+6nUCAAAyBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAQCHs8J5EaW0AAAB4AAAACQAkAAAAAAAAAAAAAADCAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAHoDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -8402,7 +8402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1646359041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8416,7 +8416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  target: {fileID: 0}
+  target: {fileID: 2129625897}
 --- !u!114 &1646359042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8495,7 +8495,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646359040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.8320003, y: 2.613, z: 2}
+  m_LocalPosition: {x: -7.66, y: 0.62, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9786,6 +9786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PotatoBucket: {fileID: 53207900}
   count: 0
+  Max_count: 0
   playerPos: {x: 0, y: 0}
   isEscape: 0
   isTimeUp: 0
@@ -9810,3 +9811,8 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.14}
   m_Size: {x: 0.63, y: 0.36}
   m_Direction: 0
+--- !u!4 &2129625897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7836040808487302086, guid: 89f7e4b246d6245ff9739f87d860c14a, type: 3}
+  m_PrefabInstance: {fileID: 1378400664}
+  m_PrefabAsset: {fileID: 0}

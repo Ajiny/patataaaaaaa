@@ -43,14 +43,6 @@ public class HealthSystem : MonoBehaviour
             }
         }
         
-        if(Input.GetKeyDown("1"))
-        {
-            AddLife();
-        }
-        if(Input.GetKeyDown("2"))
-        {
-            MinusLife();
-        }
         
     }
 

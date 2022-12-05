@@ -25,6 +25,10 @@ public class EndGame : MonoBehaviour
         //gameObject.SetActive(true);
         //pointsText.score.Tostring() + " potatoes saved"
     //}
+    public void Stage2()
+    {
+        SceneManager.LoadScene("Basement");
+    }
     public void nextStage()
     {
         SceneManager.LoadScene("NewMap");
