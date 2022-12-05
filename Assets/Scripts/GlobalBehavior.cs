@@ -11,7 +11,7 @@ public class GlobalBehavior : MonoBehaviour
     
     //bucket picked count
     public int count = 0;
-    
+    public int Max_count;
     public Vector2 playerPos = new Vector2();
     //if player could escape or not
     public bool isEscape = false;
@@ -19,11 +19,12 @@ public class GlobalBehavior : MonoBehaviour
     void Start()
     {
         GlobalBehavior.GlobalBehaviorInstance = this;
+        Max_count = GameObject.FindGameObjectsWithTag("Bucket").Length;
     }
 
     void Update()
     {
-        PotatoBucket.text = count + " ";
+        PotatoBucket.text = (count + " / " + Max_count);
         UpdateEscapeStatus();
     }
 
