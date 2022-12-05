@@ -8,6 +8,9 @@ TagManager:
   - Bucket
   - Human
   - Exit
+  - GreenPortal
+  - BluePortal
+  - Portal
   layers:
   - Default
   - TransparentFX
