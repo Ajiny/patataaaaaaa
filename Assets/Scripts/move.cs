@@ -135,6 +135,10 @@ public class move : MonoBehaviour
             {
                 transform.position = new Vector3(-13.5f, 6.18f, 0);
             }
+            else if (SceneManager.GetActiveScene().buildIndex == 4)
+            {
+                transform.position = new Vector3(-7.6f, 0,0 );
+            }
 
         }
     }
