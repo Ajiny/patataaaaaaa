@@ -12840,7 +12840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec210bbc64d7d4e08ba9f1c27ed9e60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeLeft: 120
+  TimeLeft: 90
   TimerOn: 1
   TimerTXT: {fileID: 456013856}
 --- !u!4 &1706438885
@@ -13557,7 +13557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7836040809333676836, guid: 89f7e4b246d6245ff9739f87d860c14a, type: 3}
       propertyPath: moveSpeed
-      value: 1.5
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 7836040809333676837, guid: 89f7e4b246d6245ff9739f87d860c14a, type: 3}
       propertyPath: m_RootOrder

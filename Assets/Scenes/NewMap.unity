@@ -23871,7 +23871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec210bbc64d7d4e08ba9f1c27ed9e60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeLeft: 120
+  TimeLeft: 60
   TimerOn: 1
   TimerTXT: {fileID: 989187577}
 --- !u!4 &2016705189
@@ -24436,6 +24436,10 @@ PrefabInstance:
     - target: {fileID: 1657535060235378284, guid: 079c5155c77e34257862ddefe3746fdd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657535060235378285, guid: 079c5155c77e34257862ddefe3746fdd, type: 3}
+      propertyPath: moveSpeed
+      value: 1.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 079c5155c77e34257862ddefe3746fdd, type: 3}
