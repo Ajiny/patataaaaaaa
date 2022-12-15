@@ -15,6 +15,12 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("NewMap");
     }
 
+    public void Credit(){
+
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + current);
+        SceneManager.LoadScene("Credits");
+    }
+
      public void Tutorial(){
 
         Debug.Log("Quit Game");
